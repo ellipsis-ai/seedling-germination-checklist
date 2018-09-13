@@ -39,6 +39,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "Ksh4Oek-ROSbCGLMo14dtg",
+  "name" : "chambersFull",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "What is the value for `chambersFull`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "Ptyoxw6gTSmMEZOYeDVF2g",
   "name" : "summary",
   "paramType" : {
@@ -76,6 +86,16 @@
     "name" : "Yes/No"
   },
   "question" : "Are the germination chambers full of water?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "q9aqg3HSTayWmiBipgXa-Q",
+  "name" : "whenLoaded",
+  "paramType" : {
+    "exportId" : "Date & Time",
+    "name" : "Date & Time"
+  },
+  "question" : "What is the value for `whenLoaded`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 } ]
