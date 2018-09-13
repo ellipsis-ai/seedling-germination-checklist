@@ -10,12 +10,12 @@
   "isSavedForUser" : false
 }, {
   "exportId" : "E88KptQ5ReygGXm632zawg",
-  "name" : "channels",
+  "name" : "channel",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "For which channels? (space-separated)",
+  "question" : "For which channel?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -30,12 +30,12 @@
   "isSavedForUser" : false
 }, {
   "exportId" : "GmVBbU2CTNukfRJHsu3GLQ",
-  "name" : "channelsString",
+  "name" : "postChannel",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What is the value for `channelsString`?",
+  "question" : "What is the value for `postChannel`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -50,12 +50,12 @@
   "isSavedForUser" : false
 }, {
   "exportId" : "YQda5OjTT2iUK_a4MMq2jg",
-  "name" : "channelsString",
+  "name" : "postChannel",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "What is the value for `channelsString`?",
+  "question" : "What is the value for `postChannel`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {

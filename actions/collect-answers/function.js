@@ -1,4 +1,4 @@
-function(whenLoaded, chambersFull, channelsString, ellipsis) {
+function(whenLoaded, chambersFull, postChannel, ellipsis) {
   const moment = require('moment-timezone');
 
 const channel = ellipsis.userInfo.messageInfo.channel;
@@ -11,10 +11,10 @@ const whenLoadedText = whenLoadedMoment.format(format);
 
 const summary = `
 The Seedling Germination Checklist has been completed by <@${user}>:
-:white_check_mark:  Germination chambers were loaded on \`${whenLoadedText}\`
+:white_check_mark:  Germination chambers were loaded \`${whenLoadedText}\`
 ${checkFor(chambersFull)}   Germination chambers are full
 
-:alarm_clock: I will remind ${channelsString} to unload the chambers on \`${whenToUnloadText}\`.
+:alarm_clock: I will remind ${postChannel} to unload the chambers \`${whenToUnloadText}\`.
 `;
 
 ellipsis.success(summary, {
@@ -24,7 +24,7 @@ ellipsis.success(summary, {
       actionName: 'proceed-to-post',
       args: [
         { name: 'summary', value: summary },
-        { name: 'channelsString', value: channelsString },
+        { name: 'postChannel', value: postChannel },
         { name: 'whenToUnload', value: whenToUnload.toISOString() }
       ]
     },
@@ -32,7 +32,7 @@ ellipsis.success(summary, {
       label: '🖊 Change my answers',
       actionName: 'collect-answers',
       args: [
-        { name: 'channelsString', value: channelsString }
+        { name: 'postChannel', value: postChannel }
       ]
     }
   ]

@@ -1,4 +1,4 @@
-function(channels, ellipsis) {
+function(channel, ellipsis) {
   const intro = `
 :seedling: Hello, this is the Seedling Germination Checklist reminder. 
 
@@ -9,7 +9,7 @@ ellipsis.success(intro, {
     { 
       actionName: "collect-answers",
       label: "Start",
-      args: [{ name: "channelsString", value: channels }],
+      args: [{ name: "postChannel", value: channel }],
       allowOthers: true
     }
   ]

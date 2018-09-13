@@ -1,3 +1,3 @@
-**Here is a preview of what I will post to {channelsString}:**
+**Here is a preview of what I will post to {postChannel}:**
 –––––
 > {successResult}
