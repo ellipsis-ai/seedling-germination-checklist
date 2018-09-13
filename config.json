@@ -1,0 +1,7 @@
+{
+  "name" : "Seedling Germination Checklist & Reminder",
+  "exportId" : "pg8f6h2kQPmerXATsaEZ6A",
+  "requiredAWSConfigs" : [ ],
+  "requiredOAuthApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
+}

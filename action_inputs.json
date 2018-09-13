@@ -1,0 +1,81 @@
+[ {
+  "exportId" : "07K1JoHLQzu3bUJP__a-ng",
+  "name" : "summary",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `summary`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "E88KptQ5ReygGXm632zawg",
+  "name" : "channels",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which channels? (space-separated)",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "FVUY55HbRX6ACKww2oBUNQ",
+  "name" : "whenLoaded",
+  "paramType" : {
+    "exportId" : "Date & Time",
+    "name" : "Date & Time"
+  },
+  "question" : "When were the germination chambers loaded?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "GmVBbU2CTNukfRJHsu3GLQ",
+  "name" : "channelsString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `channelsString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "Ptyoxw6gTSmMEZOYeDVF2g",
+  "name" : "summary",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `summary`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "YQda5OjTT2iUK_a4MMq2jg",
+  "name" : "channelsString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `channelsString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "f0BacLbrRYav0nOe_hC3uw",
+  "name" : "whenToUnload",
+  "paramType" : {
+    "exportId" : "Date & Time",
+    "name" : "Date & Time"
+  },
+  "question" : "What is the value for `whenToUnload`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "jFW_SF41Q0m7Y3FCrg6Q3g",
+  "name" : "chambersFull",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "Are the germination chambers full of water?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]
