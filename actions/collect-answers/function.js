@@ -25,7 +25,7 @@ ellipsis.success(summary, {
       args: [
         { name: 'summary', value: summary },
         { name: 'postChannel', value: postChannel },
-        { name: 'whenToUnload', value: whenToUnload.toISOString() }
+        { name: 'whenToUnload', value: whenToUnloadText }
       ]
     },
     {

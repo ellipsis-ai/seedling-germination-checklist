@@ -1,10 +1,22 @@
 function(postChannel, summary, whenToUnload, ellipsis) {
-  const EllipsisApi = require('ellipsis-api');
+  const moment = require('moment-timezone');
+const EllipsisApi = require('ellipsis-api');
 const api = new EllipsisApi(ellipsis);
 
 api.say({ message: 'Got it!' }).then(res => {
-  postSummary().then(ellipsis.noResponse);                                 
+  setUpReminder().then(res => {
+    postSummary().then(ellipsis.noResponse);                                 
+  });
 });
+
+function setUpReminder() {
+  const recurrence = `every day at ${moment(whenToUnload).tz(ellipsis.teamInfo.timeZone).format('h:mma')} once`;
+  return api.schedule({
+    actionName: 'remind-to-unload',
+    channel: postChannel,
+    recurrence: recurrence
+  });
+}
 
 function postSummary() {
   return api.run({
